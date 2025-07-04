@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> weather site </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/clear.png" />
+    <link rel="shortcut back" href="back/clear.png" />
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type = "text" placeholder = "enter city name" alt = "" />
+            <button> <img src = "img/search.png" alt = " "/> </button>
+        </div>
+
+        <div class="error">
+            <p> ENTER CORRECT CITY NAME! </p>   
+        </div>
+
+        <div class="weather">
+            <h1 class = "city"> NEW YORK </h1>
+
+            <div class="data">
+                <img src=" img/rain.png" class = 'weather-icon' alt = "" />
+                <div class="div">
+                    <h2 class = "temp" > 50<sup>o</sup>C</h2>
+                    <h2 class = "actual"> RAINY </h2>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="col">
+                    <img src = "img/humidity.png" alt = "" />
+                    <div>
+                        <p class=" humidity"> 50% </p>
+                        <p> humidity </p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src = "img/wind.png" alt = "" />
+                    <div>
+                        <p class="wind"> 15 km/h </p>
+                        <p> wind speed </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "./script.js"> </script>
+</body>
+</html>
